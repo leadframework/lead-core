@@ -52,7 +52,7 @@ class CaseStep:
 
     @staticmethod
     def _validate_condition(
-        condition: Callable[[Any], bool] | str | None
+        condition: Callable[[Any], bool] | str | None,
     ) -> Callable[[Any], bool]:
         if condition is None:
             return lambda _: True
