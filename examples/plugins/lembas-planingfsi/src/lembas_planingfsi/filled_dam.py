@@ -5,6 +5,7 @@ head at the base. The dam will deform into an equilibrium state using the
 finite-element solver.
 
 """
+
 import dataclasses
 from functools import cached_property
 from pathlib import Path
