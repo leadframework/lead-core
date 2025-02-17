@@ -4,6 +4,7 @@ Each case is run with `planingfsi` and is characterized by the Froude number
 (flow speed) and angle of attack.
 
 """
+
 from __future__ import annotations
 
 import shutil
