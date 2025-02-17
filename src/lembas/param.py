@@ -1,4 +1,5 @@
 """Custom parameter types that can be defined on `lembas.Case` instances."""
+
 from __future__ import annotations
 
 from functools import cached_property
